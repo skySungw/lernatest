@@ -2,10 +2,13 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "dev": "lerna import ./testsgw",
-    "predev": ".\\test.sh"
+    "dev": ".\\test.sh",
+    "lernatest": "lerna import ./testsgw"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "scripty": "^2.0.0"
   }
 }
