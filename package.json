@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "dev": "lerna import testsgw"
+    "dev": "lerna import ./testsgw"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
