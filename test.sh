@@ -6,7 +6,7 @@ mkdir packages;
 git add .;
 git commit -m $1;
 git push origin main;
-# npm run lernatest;
+npm run lernatest;
 echo "完成";
 sleep 10s;
 exit;
