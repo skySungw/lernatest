@@ -1,1 +1,4 @@
-console.log('测试1.0');
+module.exports = {
+  username:"dalong",
+  age:333
+}
