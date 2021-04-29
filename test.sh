@@ -8,4 +8,7 @@ git commit -m $1;
 git push origin main;
 npm run lernatest;
 echo "完成";
+lerna create testsgw 
+cd testsgw 
+lerna add testsgw
 exit;
