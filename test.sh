@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sleep 3s;
 rm -rf packages;
 mkdir packages;
 
