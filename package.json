@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": ".\\test.sh",
-    "lernatest": "lerna import ./testsgw --yes"
+    "lernatest": "lerna import testsgw --yes"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
