@@ -7,6 +7,10 @@ git add .;
 git commit -m $1;
 git push origin main;
 npm run lernatest;
-lerna changed;
+
+lerna create testui 
+cd testui 
+lerna add testsgw
+
 echo "完成";
 exit;
