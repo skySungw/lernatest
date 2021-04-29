@@ -1,2 +1,2 @@
-const testsgw = require("testsgw/index.js");
+const testsgw = require("./packages/testsgw/index.js");
 console.log("testsgw", testsgw);
