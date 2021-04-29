@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# rm -rf packages;
-# mkdir packages;
+rm -rf packages;
+mkdir packages;
 
 git add .;
 git commit -m $1;
